@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Poppins&display=swap');
+html {
+    height: 100%;
+    background: linear-gradient(180deg, #05214B 0%, #BBCAFF 100%);
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 55vh;
+    position: absolute;
+    width: 116vh;
+    height: 7vh;
+    left: 8vh;
+    top: 2vh;
+}
+.logo{
+    position: relative;
+    width: 16vh;
+    height: 7vh;
+    left: 4vh;
+    top: 7vh;
+}
+.titulo{
+    width: 45vh;
+    height: 6vh;
+    font-family: 'Allerta Stencil';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 19vh;
+    color: #E9ECF8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+#textoEncriptado{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px 32px;
+    position: absolute;
+    width: 78vh;
+    height: 32vh;
+    left: 13vh;
+    top: 22vh;
+    background: #F3F5FC;
+    box-shadow: 0px 8px 12px rgba(7, 43, 97, 0.2);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    align-content:flex-start;
+    color:#072B61;
+}
+#textoDesencriptado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 2vh;
+    position: absolute;
+    width: 78vh;
+    height: 32vh;
+    left: 105vh;
+    top: 22vh;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 12px rgba(7, 43, 97, 0.2);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+#botonCopiar{
+    background: none;
+    border: none;
+    position: absolute;
+    width: 9vh;
+    height: 9vh;
+    left: 178vh;
+    top: 24vh;
+    border-radius: 12px;
+}
+aside{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    position: absolute;
+    width: 65vh;
+    height: 5vh;
+    left: 70vh;
+    top: 70vh;
+}
+.vector{
+    width: 2vh;
+    height: 1vh;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 8px;
+}
+.caracteres{
+    position: relative;
+    width: 58vh;
+    height: 2vh;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #495057;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 4vh;
+    position: relative;
+    width: 100vh;
+    height: 10vh;
+    left: 51vh;
+    top: 80vh;
+    z-index: 100;
+}
+#botonEncriptar{
+    padding: 12px;
+    gap: 2vh;
+    width: 48vh;
+    height: 10vh;
+    background: #072B61;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #E5E5E5;
+}
+#botonEncriptar:hover{
+    background-color: #BBCAFF;
+    color: #072B61;
+}
+#botonDesencriptar{
+    padding: 2vh;
+    gap: 2vh;
+    width: 48vh;
+    height: 10vh;
+    background: #FFFFFF;
+    border-radius: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #072B61;
+    border: none;
+}
+#botonDesencriptar:hover{
+    background-color: #CED4DA;
+    color: #495057;
+}
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 114vh;
+    position: absolute;
+    width: 203vh;
+    height: 37vh;
+    left: 0vh;
+    top: 63vh;
+}
+.astronauta{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1vh;
+    gap: 1vh;
+    width: 43vh;
+    height: 32vh;
+}
+.robot{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1vh;
+    gap: 1vh;
+    width: 49vh;
+    height: 32vh;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    gap: 1vh;
+    position: absolute;
+    width: 31vh;
+    height: 2vh;
+    left: 86vh;
+    top: 95vh;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #757FB2;
+}
